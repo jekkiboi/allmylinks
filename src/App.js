@@ -4,14 +4,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-
-        <p>
         <h1 className='title'>With Love, From Jack</h1>
-        </p>
-        <img className='bgme'src={`${process.env.PUBLIC_URL}/photos/videogame.jpg`} alt="vg"/>
+        <div className='container'>
+        <img className="bgme" src={`${process.env.PUBLIC_URL}/photos/videogame.jpg`} alt="vg"/>
         <br />
+        <div className="App-link">
         <a
-          className="App-link"
+          className="link-style"
           href="https://www.tiktok.com/@withlovefromjack?_t=8Vm5OnSsoGI&_r=1"
           target="_blank"
           rel="noopener noreferrer"
@@ -20,16 +19,16 @@ function App() {
         </a>
         <br />
         <a
-          className="App-link"
-          href="https://www.instagram.com/withlovefromjack/"
+          className="link-style"
+          href="https://www.youtube.com/channel/UCyAd-4_iUDpUgX3OiGuEbFQ"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Instagram 
+          Youtube 
         </a>
         <br />
         <a
-          className="App-link"
+          className="link-style"
           href="https://soundcloud.com/jekkiboi"
           target="_blank"
           rel="noopener noreferrer"
@@ -38,14 +37,24 @@ function App() {
         </a>
         <br/>
         <a
-          className="App-link"
+          className="link-style"
           href="https://open.spotify.com/track/4sVUx7LZGNGAUIH99y0CrI?si=8UD7_DHkTYK5IXfctdkjoA"
           target="_blank"
           rel="noopener noreferrer"
         >
           Spotify 
         </a>
-
+        <br/>
+        <a
+          className="link-style"
+          href="https://www.instagram.com/withlovefromjack/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram 
+        </a>
+        </div>
+        </div>
     </div>
   );
 }

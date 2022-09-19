@@ -1,18 +1,31 @@
 .App {
   text-align: center;
 }
-.bgme{
-height:60vh;
-}
-
 .title{
   color: aliceblue;
   font-style: oblique;
 }
 
-.App-link{
+.bgme{
+height:60vh;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.link-style{
   color: aliceblue;
   font-style: oblique;
+  font-size:xx-large;
+  text-decoration: none;
 }
+.App-link{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 body {background-color: rgb(4, 4, 4);}
