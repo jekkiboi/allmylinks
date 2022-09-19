@@ -4,6 +4,14 @@
 .title{
   color: aliceblue;
   font-style: oblique;
+  font-size:5vw;
+}
+.title1{
+  color: aliceblue;
+  font-style: oblique;
+  font-size:3.5vw;
+  padding-right:7vw;
+  padding-left:7vw;
 }
 
 .bgme{
@@ -12,12 +20,11 @@ height:60vh;
 .container {
   position: relative;
   text-align: center;
-  color: white;
 }
 .link-style{
   color: aliceblue;
   font-style: oblique;
-  font-size:xx-large;
+  font-size:4vw;
   text-decoration: none;
 }
 .App-link{
@@ -25,6 +32,12 @@ height:60vh;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.ecolace{
+  font-size:4vw;
+}
+.ecolace2{
+  font-size:2.5vw;
 }
 
 
